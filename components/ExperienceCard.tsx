@@ -9,7 +9,7 @@ const ExperienceCard = ({ companyLogo, company, link, role, date, desc, descBull
       
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
         <CardBody className="">
-          <a href={link} target="_blank">
+          <a href={link} rel="noreferrer" target="_blank">
           <img
             src={companyLogo}
             style={{
