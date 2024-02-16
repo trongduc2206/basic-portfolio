@@ -23,7 +23,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Education />
       <Experience />
       {/* <Feedbacks /> */}
-      {/* <Projects /> */}
+      <Projects />
       {/* <GithubProfileCard {...githubProfileData} /> */}
     </div>
   );

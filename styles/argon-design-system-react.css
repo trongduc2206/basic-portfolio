@@ -16334,6 +16334,16 @@ a.btn-icon-only {
 	}
 }
 
+.card-lift-sm--hover:hover {
+	transform: translateY(-10px);
+	transition: all 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+	.card-lift--hover:hover {
+		transition: none;
+	}
+}
+
 .close {
 	transition: all 0.15s ease;
 }

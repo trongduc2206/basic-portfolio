@@ -6,7 +6,7 @@ import { ProjectType } from "../types/sections";
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
+      <Card className="shadow-lg--hover shadow mt-4 card-lift-sm--hover">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -29,7 +29,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
               {link ? (
                 <Button
                   className="btn-icon"
-                  color="success"
+                  color="dark"
                   href={link}
                   target="_blank"
                   rel="noopener"

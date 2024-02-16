@@ -134,6 +134,16 @@ const Navigation = () => {
                     <span>Education</span>
                   </NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink
+                    rel="noopener"
+                    aria-label="projects"
+                    href="#projects"
+                  >
+                    
+                    <span>Projects</span>
+                  </NavLink>
+                </NavItem>
                 {socialLinks.twitter && (
                   <NavItem>
                     <NavLink
