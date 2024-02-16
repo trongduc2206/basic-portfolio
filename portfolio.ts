@@ -151,9 +151,14 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "otaniemi-subleasing",
+    name: "Otaniemi Subleasing",
     desc: "A web application where people not only can find subleased room which fit their needs but also post and promote rooms for subleasing.",
     link: "https://otasublease.netlify.app/",
+  },
+  {
+    name: "Delivery Fee Calculator",
+    desc: "A web application to calculate delivery fee based on rules of Wolt delivery company",
+    link: "https://delivery-fee-calculator-ducvt-wolt.netlify.app/",
   },
 ];
 

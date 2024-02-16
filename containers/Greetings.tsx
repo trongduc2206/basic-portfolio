@@ -21,7 +21,7 @@ const Greetings = () => {
             <span />
             <span />
             <span />
-            <span />
+            <span />  
             <span />
             <span />
             <span />
